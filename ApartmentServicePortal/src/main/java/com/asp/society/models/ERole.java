@@ -1,4 +1,4 @@
-package com.ASP.society.models;
+package com.asp.society.models;
 
 public enum ERole {
 

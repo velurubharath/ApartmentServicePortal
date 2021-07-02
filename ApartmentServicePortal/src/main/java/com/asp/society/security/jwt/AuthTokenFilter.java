@@ -1,4 +1,4 @@
-package com.ASP.society.security.jwt;
+package com.asp.society.security.jwt;
 
 import java.io.IOException;
 
@@ -17,7 +17,7 @@ import org.springframework.security.web.authentication.WebAuthenticationDetailsS
 import org.springframework.util.StringUtils;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.ASP.society.security.services.UserDetailsServiceImpl;
+import com.asp.society.security.services.UserDetailsServiceImpl;
 
 public class AuthTokenFilter extends OncePerRequestFilter {
 

@@ -1,4 +1,4 @@
-package com.ASP.society.controllers;
+package com.asp.society.controllers;
 
 import java.util.HashSet;
 import java.util.List;
@@ -20,17 +20,17 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ASP.society.models.ERole;
-import com.ASP.society.models.Role;
-import com.ASP.society.models.User;
-import com.ASP.society.payload.JwtResponse;
-import com.ASP.society.payload.LoginRequest;
-import com.ASP.society.payload.MessageResponse;
-import com.ASP.society.payload.SignupRequest;
-import com.ASP.society.repository.RoleRepository;
-import com.ASP.society.repository.UserRepository;
-import com.ASP.society.security.jwt.JwtUtils;
-import com.ASP.society.security.services.UserDetailsImpl;
+import com.asp.society.models.ERole;
+import com.asp.society.models.Role;
+import com.asp.society.models.User;
+import com.asp.society.payload.JwtResponse;
+import com.asp.society.payload.LoginRequest;
+import com.asp.society.payload.MessageResponse;
+import com.asp.society.payload.SignupRequest;
+import com.asp.society.repository.RoleRepository;
+import com.asp.society.repository.UserRepository;
+import com.asp.society.security.jwt.JwtUtils;
+import com.asp.society.security.services.UserDetailsImpl;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController

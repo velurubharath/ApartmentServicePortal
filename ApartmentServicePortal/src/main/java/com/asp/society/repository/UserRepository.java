@@ -1,10 +1,10 @@
-package com.ASP.society.repository;
+package com.asp.society.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-import com.ASP.society.models.User;
+import com.asp.society.models.User;
 
 public interface UserRepository extends MongoRepository<User, String> {
 

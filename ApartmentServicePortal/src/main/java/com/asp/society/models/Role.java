@@ -1,4 +1,4 @@
-package com.ASP.society.models;
+package com.asp.society.models;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

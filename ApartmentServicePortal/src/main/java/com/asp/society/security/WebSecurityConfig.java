@@ -1,4 +1,4 @@
-package com.ASP.society.security;
+package com.asp.society.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -14,9 +14,9 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.ASP.society.security.jwt.AuthEntryPointJwt;
-import com.ASP.society.security.jwt.AuthTokenFilter;
-import com.ASP.society.security.services.UserDetailsServiceImpl;
+import com.asp.society.security.jwt.AuthEntryPointJwt;
+import com.asp.society.security.jwt.AuthTokenFilter;
+import com.asp.society.security.services.UserDetailsServiceImpl;
 
 @Configuration
 @EnableWebSecurity

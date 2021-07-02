@@ -1,4 +1,4 @@
-package com.ASP.society.payload;
+package com.asp.society.payload;
 
 import javax.validation.constraints.NotBlank;
 

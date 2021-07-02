@@ -1,4 +1,4 @@
-package com.ASP.society.security.jwt;
+package com.asp.society.security.jwt;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package com.ASP.society.security.services;
+package com.asp.society.security.services;
 
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -6,8 +6,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.ASP.society.models.User;
-import com.ASP.society.repository.UserRepository;
+import com.asp.society.models.User;
+import com.asp.society.repository.UserRepository;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
