@@ -4,6 +4,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+*.class
+
 ### STS ###
 .apt_generated
 .classpath
@@ -31,3 +33,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Mac ###
+
+*.DS_Store
+../.DS_Store
+../.idea

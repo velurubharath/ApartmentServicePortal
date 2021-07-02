@@ -1,4 +1,4 @@
-package com.ASP.society;
+package com.asp.society;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
